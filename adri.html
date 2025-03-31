@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe to My Newsletter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: ;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: 0.6;
+            z-index: -1;
+        }
+        div[class*="WidgetBackground__ContentContainer"] a,
+        div[class*="WidgetBackground__ContentContainer"] a * {
+    width: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    clip-path: inset(100%) !important;
+    max-height: 1px;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center h-screen">
+    <div class="p-8 rounded-lg shadow-lg text-center">
+        <img src="images/logo.png">
+        <h4 class="text-white" style="font-weight: 100;
+    letter-spacing: 3px; margin-bottom: 40px;">digital | innovation | sustainability</h3>
+    <div>
+        <!-- Elfsight Subscription Form | Untitled Subscription Form -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-60791a45-7d48-40a0-963a-f1209426822c" data-elfsight-app-lazy></div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        //    setInterval(() => {
+        //     const targetLink = document.querySelector('div[class*="WidgetBackground__ContentContainer"] a');
+        //     if (targetLink) {
+        //         targetLink.style.setProperty("display", "none", "important");
+        //     }
+        // }, 100); // Kiểm tra và ẩn mỗi giây
+    </script>
+</body>
+</html>
